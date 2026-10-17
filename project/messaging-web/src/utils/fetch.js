@@ -1,4 +1,4 @@
-export const BASE_ADDRESS = ''
+export const BASE_ADDRESS = 'http://localhost:4000'
 
 function getToken() {
   let sessionToken = localStorage.getItem('session_token');
