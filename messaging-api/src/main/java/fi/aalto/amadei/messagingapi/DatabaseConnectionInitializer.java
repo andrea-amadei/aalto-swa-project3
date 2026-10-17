@@ -57,7 +57,6 @@ public class DatabaseConnectionInitializer {
         String dbURL = String.format("jdbc:postgresql://%s:%s/%s", dbHost, dbPort, dbName);
         String dbDriver = "org.postgresql.Driver";
 
-        logger.info("Connecting to '{}' with username '{}' and password '{}'", dbURL, dbUser, dbPassword);
 
         try {
             Class.forName(dbDriver);
